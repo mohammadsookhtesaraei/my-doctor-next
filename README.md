@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Created by https://www.toptal.com/developers/gitignore/api/nextjs,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=nextjs,visualstudiocode
 
-## Getting Started
+### NextJS ###
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-First, run the development server:
+# testing
+/coverage
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# next.js
+/.next/
+/out/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# production
+/build
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# misc
+.DS_Store
+*.pem
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
 
-## Learn More
+# local env files
+.env*.local
 
-To learn more about Next.js, take a look at the following resources:
+# vercel
+.vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# typescript
+*.tsbuildinfo
+next-env.d.ts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
 
-## Deploy on Vercel
+# Local History for Visual Studio Code
+.history/
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Built Visual Studio Code Extensions
+*.vsix
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+.vscode/
+
+# End of https://www.toptal.com/developers/gitignore/api/nextjs,visualstudiocode
