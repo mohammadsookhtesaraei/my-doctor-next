@@ -72,6 +72,12 @@ a {
 body {
     background-color: var(--color-default-background);
     color: var(--color-default-foreground);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
+    block-size: 100vh;
+    block-size: 100dvb;
+
 }
 
 
