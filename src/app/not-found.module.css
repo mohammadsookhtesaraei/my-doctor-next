@@ -1,0 +1,42 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "writings   visuals"
+    "search visuals ";
+  place-content: center;
+  gap: 1rem;
+  min-block-size: 100%;
+}
+
+.writings {
+  grid-area: writings;
+}
+
+.status {
+  font-size: var(--fz-800);
+  font-weight: 300;
+
+  line-height: 0.8;
+}
+
+.writings h1 {
+  margin-block-end: 1rem;
+
+  font-size: var(--fz-600);
+}
+
+.writings p {
+  max-inline-size: 50ch;
+}
+.visuals {
+  grid-area: visuals;
+  min-block-size: 100%;
+  block-size: 0;
+}
+
+.visuals img {
+  block-size: 100%;
+}
+.search {
+  grid-area: search;
+}
