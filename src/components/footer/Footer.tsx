@@ -57,10 +57,13 @@ export default function Footer() {
           </li>
         </ul>
       </div>
+
+
       <p className={styles.copy}>
         تمام حقوق مادی و معنوی این وبسایت،خدمات و محتوای مربوط به آن متعلق به من
         می باشد
       </p>
+      
     </footer>
   );
 }
