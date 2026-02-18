@@ -1,0 +1,25 @@
+.filterBtn {
+    background-color: transparent;
+    color: inherit;
+    border: 1px solid currentColor;
+    display: grid;
+    place-content: center;
+    border-radius: var(--border-radius);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    transition-property: background-color , color;
+}
+
+.filterBtn:hover {
+    background-color: var(--color-primary-fade);
+    color: var(--color-primary-opposite);
+
+}
+
+
+.filterBtn:active {
+     background-color: var(--color-primary);
+    color: var(--color-primary-opposite);
+    border-color: var(--color-primary);
+}

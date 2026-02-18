@@ -25,4 +25,15 @@
     background-color: var(--color-primary);
     color: var(----color-primary-opposite);
     border-color: var(--color-primary);
-} 
+}
+
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-block-start: 0.5rem;
+}
+
+.btn button {
+    flex: 1 0 auto;
+}
